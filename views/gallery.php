@@ -23,45 +23,6 @@ $obj12 = $result->fetchObject();
 	You can get a glimpse of my taste by browsing below. 
 	I'll be updating this page regularly with my latest projects,
 	so check back often!</p>
-</div>
-<!--    <div>
-        <?php echo $obj1->title?> <br>
-        <?php echo $obj1->genre;?> <br>
-        <a href="/images/picture1.jpg"><img id="images" src="<?php echo $obj1->path;?>"></a><br><br>
-        <?php echo $obj2->title;?> <br>
-        <?php echo $obj2->genre;?> <br>
-        <a href="/images/picture5.jpg"><img id="images" src="<?php echo $obj2->path;?>"></a><br><br>
-        <?php echo $obj3->title;?> <br>
-        <?php echo $obj3->genre;?> <br>
-        <a href="/images/picture3.jpg"><img id="images" src="<?php echo $obj3->path;?>"></a><br><br>
-        <?php echo $obj4->title;?> <br>
-        <?php echo $obj4->genre;?> <br>
-        <a href="/images/picture7.jpg"><img id="images" src="<?php echo $obj4->path;?>"></a><br><br>
-        <?php echo $obj5->title;?> <br>
-        <?php echo $obj5->genre;?> <br>
-        <a href="/images/picture4.jpg"><img id="images" src="<?php echo $obj5->path;?>"></a><br><br>
-        <?php echo $obj6->title;?> <br>
-        <?php echo $obj6->genre;?> <br>
-        <a href="/images/picture6.jpg"><img id="images" src="<?php echo $obj6->path;?>"></a><br><br>
-        <?php echo $obj7->title;?> <br>
-        <?php echo $obj7->genre;?> <br>
-        <a href="/images/picture2.jpg"><img id="images" src="<?php echo $obj7->path;?>"></a><br><br>
-        <?php echo $obj8->title;?> <br>
-        <?php echo $obj8->genre;?> <br>
-        <a href="/images/picture8.jpg"><img id="images" src="<?php echo $obj8->path;?>"></a><br><br>
-        <?php echo $obj9->title;?> <br>
-        <?php echo $obj9->genre;?> <br>
-        <a href="/images/picture9.jpg"><img id="images" src="<?php echo $obj9->path;?>"></a><br><br>
-        <?php echo $obj10->title;?> <br>
-        <?php echo $obj10->genre;?> <br>
-        <a href="/images/picture12.jpg"><img id="images" src="<?php echo $obj10->path;?>"></a><br><br>
-        <?php echo $obj11->title;?> <br>
-        <?php echo $obj11->genre;?> <br>
-        <a href="/images/picture10.jpg"><img id="images" src="<?php echo $obj11->path;?>"></a><br><br>
-        <?php echo $obj12->title;?> <br>
-        <?php echo $obj12->genre;?> <br>
-        <a href="/images/picture11.jpg"><img id="images" src="<?php echo $obj12->path;?>"></a><br><br>
-</div>   -->
 
         <table>
         <thead>
@@ -71,10 +32,10 @@ $obj12 = $result->fetchObject();
         </thead>
         <tbody>
             <tr>
-                <td><a href="/images/picture1.jpg"><img id="images" src="<?php echo $obj1->path;?>"></a></td>
-                <td><a href="/images/picture5.jpg"><img id="images" src="<?php echo $obj2->path;?>"></a></td>
-                <td><a href="/images/picture3.jpg"><img id="images" src="<?php echo $obj3->path;?>"></a></td>
-                <td><a href="/images/picture7.jpg"><img id="images" src="<?php echo $obj4->path;?>"></a></td>
+                <td><a href="/images/picture1.jpg" title="two-brothers"><img id="images" src="<?php echo $obj1->path;?>" alt="two-brothers"></a></td>
+                <td><a href="/images/picture5.jpg" title="michele"><img id="images" src="<?php echo $obj2->path;?>" alt="michele"></a></td>
+                <td><a href="/images/picture3.jpg" title="boardwalk"><img id="images" src="<?php echo $obj3->path;?>" alt="boardwalk"></a></td>
+                <td><a href="/images/picture7.jpg" title="dentist"><img id="images" src="<?php echo $obj4->path;?>" alt="dentist"></a></td>
             </tr>
         </tbody>
         <thead>
@@ -84,10 +45,10 @@ $obj12 = $result->fetchObject();
         </thead>
         <tbody> 
             <tr>
-                <td><a href="/images/picture4.jpg"><img id="images" src="<?php echo $obj5->path;?>"></a></td>
-                <td><a href="/images/picture6.jpg"><img id="images" src="<?php echo $obj6->path;?>"></a></td>
-                <td><a href="/images/picture2.jpg"><img id="images" src="<?php echo $obj7->path;?>"></a></td>
-                <td><a href="/images/picture8.jpg"><img id="images" src="<?php echo $obj8->path;?>"></a></td>
+                <td><a href="/images/picture4.jpg" title="frogs"><img id="images" src="<?php echo $obj5->path;?>" alt="frogs"></a></td>
+                <td><a href="/images/picture6.jpg" title="closet"><img id="images" src="<?php echo $obj6->path;?>" alt="closet"></a></td>
+                <td><a href="/images/picture2.jpg" title="boat"><img id="images" src="<?php echo $obj7->path;?>" alt="boat"></a></td>
+                <td><a href="/images/picture8.jpg" title="pieces-of-me"><img id="images" src="<?php echo $obj8->path;?>" alt="pieces-of-me"></a></td>
             </tr>
         </tbody>
         <thead>
@@ -97,8 +58,8 @@ $obj12 = $result->fetchObject();
         </thead>
         <tbody>
             <tr>
-                <td><a href="/images/picture9.jpg"><img id="images" src="<?php echo $obj9->path;?>"></a></td>
-                <td><a href="/images/picture12.jpg"><img id="images" src="<?php echo $obj10->path;?>"></a></td>
+                <td><a href="/images/picture9.jpg" title="moonlit-cliff"><img id="images" src="<?php echo $obj9->path;?>" alt="moonlit-cliff"></a></td>
+                <td><a href="/images/picture12.jpg" title="bridge-in-alps"><img id="images" src="<?php echo $obj10->path;?>" alt="bridge-in-alps"></a></td>
             </tr>
         </tbody>
         <thead>
@@ -108,8 +69,8 @@ $obj12 = $result->fetchObject();
         </thead>
         <tbody>
              <tr>
-                <td><a href="/images/picture10.jpg"><img id="images" src="<?php echo $obj11->path;?>"></a></td>
-                <td><a href="/images/picture11.jpg"><img id="images" src="<?php echo $obj12->path;?>"></a></td>
+                <td><a href="/images/picture10.jpg" title="dinofloor-logo"><img id="images" src="<?php echo $obj11->path;?>" alt="dinofloor-logo"></a></td>
+                <td><a href="/images/picture11.jpg" title="dinofloor-title"><img id="images" src="<?php echo $obj12->path;?>" alt="dinofloor-title"></a></td>
             </tr>
         </tbody>
     </table>

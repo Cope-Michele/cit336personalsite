@@ -13,8 +13,8 @@
         <link type="text/css" rel="stylesheet" href="site-stylesheet.css"/>
         <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js" ></script>
         
-        <img src ="/images/bwlogo.png" id="logo"><br>
-         <img id="background" src ='SomePlaceByMoab3.jpg'>
+        <img src ="/images/bwlogo.png" id="logo" alt="My Site Logo"><br>
+         <img id="background" src ='SomePlaceByMoab3.jpg' alt="Some Place By Moab">
         <div id="header">
         
         <nav>
